@@ -1,0 +1,33 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  font-family: "Sawarabi Mincho";
+}
+
+body {
+  background: #f2f3f8;
+}
+
+.text-red {
+  color: #d33943;
+}
+
+.bg-red {
+  background: #d33943;
+}
+
+.text-green {
+  color: #58b69a;
+}
+
+.bg-green {
+  background: #58b69a;
+}
+
+.text-blue {
+  color: #17425a;
+}
+
+.bg-blue {
+  background: #17425a;
+}
