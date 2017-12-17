@@ -3,11 +3,11 @@ const path = require('path')
 const mongoose = require('mongoose')
 
 const mongo = {
-  uri: process.env.MONGODB_URI || 'mongo:27017/admin'
+  uri: process.env.MONGODB_URI || 'mongodb://mongo:27017/admin'
 }
 
 mongoose.Promise = global.Promise
-mongoose.connect(`mongodb://${mongo.uri}`, { useMongoClient: true })
+mongoose.connect(`${mongo.uri}`, { useMongoClient: true })
 
 fastify.register(require('fastify-helmet'))
 
