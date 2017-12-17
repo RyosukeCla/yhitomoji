@@ -16,7 +16,7 @@
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
     "babel-preset-env": "1.6.1",
@@ -36,9 +36,7 @@
     "sass-loader": "6.0.6",
     "vue-loader": "13.6.0",
     "vue-template-compiler": "2.5.11",
-    "webpack": "3.10.0"
-  },
-  "dependencies": {
+    "webpack": "3.10.0",
     "axios": "0.17.1",
     "vue": "2.5.11",
     "vue-router": "3.0.1"
