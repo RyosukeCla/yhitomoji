@@ -46,7 +46,7 @@ export default {
     align-items: center
     margin: 0 auto
     height: 60vh
-    min-height: 1000px
+    min-height: 400px
     display: flex
 
   .back-button
