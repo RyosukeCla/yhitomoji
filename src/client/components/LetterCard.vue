@@ -49,7 +49,7 @@ export default {
     },
     tweet () {
       const body = `${this.author}のヒトモジは「${this.letter}」- その心は？？`
-      const url = `https://hitomoji.herokuapp.com/${this.id}`
+      const url = `https://yhitomoji.herokuapp.com/${this.id}`
       const tag = `ヒトモジ`
       window.open(`https://twitter.com/intent/tweet?text=${body}&url=${url}&hashtags=${tag}`)
     },
